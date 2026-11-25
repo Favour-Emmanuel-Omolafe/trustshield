@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "TrustShield — Real-Time Scam & Extortion Guard",
+  "version": "0.1.0",
+  "description": "Real-time risk scoring and warning alerts for phishing links, impersonation lures, and extortion patterns.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TrustShield"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
